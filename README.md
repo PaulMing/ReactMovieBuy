@@ -22,7 +22,6 @@ reat-react-app构建项目 -> 配置ESLint -> 配置EditorConfig -> 配置Sass -
 [1].canvas绘制座位组件：初始化渲染[本地json文件] -> 点击事件处理 -> 逻辑成功 -> 重新绘制canvas，否则没效果;//后端约定的字段很重要，前端可以方便处理；  
 [2].选座成功后的数据是影响下面的展示x排x座组件的，因此需进行组件传值 -> React原生能力来解决，后续使用了Redux进行状态/数据流管理：npm install redux react-redux --save;//一个状态/state一个reducers，actions中存放状态操作行为;   
 [3].关于canvas的失真问题：window.devicePixelRatio = 设备像素/css像素;canvas若是10px*10px,iphone上会成为4倍其会被拉伸，所以会失真 -> 解决方案：绘制图片的大小，画布大小都乘以window.devicePixelRatio;而且canvas性能还OK,图表，动画类库中经常使用，记得处理像素；//查看像素比官网：https://material.io/；  
-
 this.ctx.drawImage();//其有很多参数组合方式；this.ctx.drawImage(this.selectImage, offsetLeft, offsetTop, DRAW_SEAT_WIDTH, DRAW_SEAT_HEIGHT);  
 
 
