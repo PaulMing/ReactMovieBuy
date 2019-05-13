@@ -1,8 +1,8 @@
 
 
 
-项目开发流程：
-技术栈 -> 基础配置/环境搭建 ->开发:首页/用户/详情/购票页; ->总结优化 -> 测试->构建打包 ->发布[Hero云端构建]
+项目开发流程：  
+技术栈 -> 基础配置/环境搭建 -> 开发:首页/用户页/详情页/购票页; -> 总结优化 -> 测试 -> 构建打包 -> 发布上线[Heroku云端构建]
 
 
 1.技术栈：React、React-router-dom、Redux、creat-react-app、ESLint、Sass、Canvas、webpack、Fetch(async/await);
